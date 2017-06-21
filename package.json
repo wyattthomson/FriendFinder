@@ -1,0 +1,28 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.15.3"
+  },
+  "engines": {
+    "node": "5.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyattthomson/FriendFinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wyattthomson/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/wyattthomson/FriendFinder#readme"
+}
