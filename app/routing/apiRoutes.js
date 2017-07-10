@@ -19,7 +19,7 @@ module.exports = function(app) {
 		};
 
 		//retrieve user input
-		var userData = req.body;
+		var userData = request.body;
 		var userScores = userData.scores; 
 
 		// stores sum of differences in survey scores
@@ -44,7 +44,7 @@ module.exports = function(app) {
 			}
 		}
 		friends.push(userData);
-		res.json(bestMatch);
+		result.json(bestMatch);
 	})	
 
 }
