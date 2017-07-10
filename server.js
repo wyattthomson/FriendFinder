@@ -15,9 +15,10 @@ var app = express();
  app.use(bodyParser.json({ type: "application/vnd.api+json"}));
 
  // Routing
- // require("./app/routing/apiRoutes")(app);
+ require("./app/routing/apiRoutes")(app);
  require("./app/routing/htmlRoutes")(app);
 
+// Listens for port
  app.listen(PORT, function()  {
  	console.log("App listening on port: " + PORT);
  })
