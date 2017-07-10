@@ -1,28 +1,25 @@
 {
-  "name": "friendfinder",
+  "name": "friend_finder",
   "version": "1.0.0",
-  "description": "",
+  "description": "- www.example.com ## Description on how to use the app In this activity, you'll build a compatibility-based \"FriendFinder\" application -- basically a dating app. This full-stack site will take in results your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.  ## Requirements #### Add a simple description of what the HW requirements were 1. Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.15.3"
-  },
-  "engines": {
-    "node": "5.3.0"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wyattthomson/FriendFinder.git"
   },
+  "author": "Wyatt Thomson",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/wyattthomson/FriendFinder/issues"
   },
-  "homepage": "https://github.com/wyattthomson/FriendFinder#readme"
+  "homepage": "https://github.com/wyattthomson/FriendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
 }
